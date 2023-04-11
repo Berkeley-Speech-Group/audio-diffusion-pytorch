@@ -7,8 +7,10 @@ from .diffusion import (
     Schedule,
     UniformDistribution,
     VDiffusion,
+    StyleVDiffusion,
     VInpainter,
     VSampler,
+    StyleVSampler
 )
 from .models import (
     DiffusionAE,
